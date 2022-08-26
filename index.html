@@ -1,0 +1,57 @@
+<!--The site will be built in HTML / CSS (bonus for JavaScript).
+The requirements for this site are as follows:
+- Multiple sections with their own headings.
+- Consist of multiple pages.
+- Contain CSS linked from a separate file.
+- Images in the foreground and background.
+BONUS: Build a contact form with fields for name, email, and message (this form does not have to actually work)
+BONUS: Use JavaScript on the site.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Leo's DPL Profile</title>
+  </head>
+  <body>
+    <div class="center">
+        <style>
+   .center {
+    text-align: center
+   } </style>
+   <h1>Getting to Know Me</h1>
+    <p>My name is Leo and this is how I felt before starting this web page:</p>
+    <img src="/users/leofuchs/Desktop/dpl_prepwork/first_webpage/images/i-understand-nothing.png" alt="Leo Soccer" style="width:600px;height:400px;">
+            <p>If you want to get to know me better, follow the links below.</p>
+            
+          <h3 id="Hobbies">Section 1: <a href="./hobbies.html">Hobbies</a></h3>
+          .....
+          <h3 id="Work">Section 2: <a href="./work.html">Work</a></h3>
+          .....
+          <h3 id="Personal">Section 3: <a href="./personal.html">Personal</a></h3>
+          ....
+          <div></div>
+          <div></div>
+
+          <a href="./cover.html">Back to Cover Page</a>
+
+          <aside><div>
+            <p>If you'd like to contact me, please enter your information below:</p>
+          </div>
+            <form>
+            <label for="first">First Name</label>
+            <input id="first" name="first_name" />
+            <br />
+            <label for="last">Last Name</label>
+            <input id="last" name="last_name" />
+            <br />
+            <label for="email">Email</label>
+            <input id="email" name="email" />
+            <div></div>
+            <button type="submit">Submit</button>
+          </form></aside>
+    </div>
+          <div></div>
+      </body>
+</html>
